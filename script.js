@@ -12,8 +12,9 @@ var countdownfunction = setInterval(function () {
   document.getElementById("amx").innerHTML =
     days + "D " + hours + "H " + minutes + "M " + seconds + "S ";
 
-  if (distance < 0) {
+  if (distance <= 0) {
     clearInterval(countdownfunction);
-    document.getElementById("amx").innerHTML = "PARABENS ISINHA! <3";
+    document.getElementById("amx").innerHTML =
+      "PARABENNSSSSS ISINHA CORREGOS!!! <3";
   }
 }, 1000);

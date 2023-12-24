@@ -14,7 +14,12 @@ var countdownfunction = setInterval(function () {
 
   if (distance <= 0) {
     clearInterval(countdownfunction);
+    document.getElementById("box-title").innerHTML = "CHEGOOOOOOOO!!!";
+    document.getElementById("box-title").style.fontSize = "50px";
+    document.getElementById("box-title").style.fontWeight = "bold";
+
     document.getElementById("amx").innerHTML =
       "PARABENNSSSSS ISINHA CORREGOS!!! <3";
+    document.getElementById("img").style.display = "block";
   }
 }, 1000);
